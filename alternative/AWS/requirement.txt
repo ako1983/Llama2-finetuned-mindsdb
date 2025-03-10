@@ -1,0 +1,9 @@
+transformers==4.36.0
+torch==2.1.0
+peft
+datasets
+huggingface-hub==0.22.2
+sagemaker
+boto3
+subprocess
+importlib
