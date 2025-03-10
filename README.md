@@ -9,6 +9,8 @@ Training Epochs: 3 <br>
 Hardware: Google Colab Pro (A100 GPU) <br> 
 
 ## Usage
+```python
+
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model_name = "ako-oak/llama2-finetuned-mindsdb"
