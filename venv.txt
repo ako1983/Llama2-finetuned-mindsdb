@@ -1,0 +1,9 @@
+# 1. Create a new virtual environment
+python3 -m venv mindsdb_venv
+
+# 2. Activate the environment
+source mindsdb_venv/bin/activate
+
+# 3. Install the necessary dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
