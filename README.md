@@ -1,3 +1,19 @@
+# Automated Pipeline
+
+This repository includes an automated pipeline that:
+
+1. Clones the MindsDB documentation repository.
+2. Navigates to the `scripts` directory.
+3. Executes the specified scripts in sequence.
+
+## Running the Pipeline Manually
+
+To run the pipeline locally:
+
+```bash
+bash ./scripts/run_pipeline.sh
+
+
 # llama2-finetuned-mindsdb
 This model is a fine-tuned version of `meta-llama/Llama-2-7b-hf` on the MindsDB documentation dataset.
 
