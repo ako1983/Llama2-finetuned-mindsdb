@@ -11,8 +11,8 @@ This repository includes an automated pipeline that:
 To run the pipeline locally:
 
 ```bash
-bash ./scripts/run_pipeline.sh
-'''
+./scripts/run_pipeline.sh
+```
 
 
 # llama2-finetuned-mindsdb
