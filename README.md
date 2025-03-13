@@ -12,6 +12,7 @@ To run the pipeline locally:
 
 ```bash
 bash ./scripts/run_pipeline.sh
+'''
 
 
 # llama2-finetuned-mindsdb
@@ -39,3 +40,4 @@ def chat(prompt):
     return tokenizer.decode(output[0], skip_special_tokens=True)
 
 print(chat("What is the purpose of handlers in MindsDB?"))
+’''
