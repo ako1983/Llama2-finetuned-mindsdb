@@ -40,4 +40,4 @@ def chat(prompt):
     return tokenizer.decode(output[0], skip_special_tokens=True)
 
 print(chat("What is the purpose of handlers in MindsDB?"))
-’''
+```
